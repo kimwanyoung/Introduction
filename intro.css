@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+}
+  
+.container {
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  
+.one {
+    background-image: url(./images/ocean1.jpg);
+}
+  
+.two {
+    background-image: url(./images/ocean2.jpg);
+}
+  
+.three {
+    background-image: url(./images/ocean3.jpg);
+}
+  
+.container header {
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    position:relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 70%;
+}
+
+#top_nav{
+    text-align: center;
+}
+#top_nav a{
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+
+#top_nav a:hover{
+    color: rgba(255, 255, 255, 1.0);
+}
+
+#my_pic{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 70%;
+    margin-top: 100px;
+    border-radius: 300px;
+    width: 20%;
+}
+
+span{
+    border-radius: 3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
